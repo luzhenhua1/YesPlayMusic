@@ -734,8 +734,7 @@
         <p class="version">v{{ version }}</p>
 
         <a
-          v-if="!isElectron"
-          href="https://github.com/luzhenhua1/YesPlayMusic"
+v-if="!isElectron" href="https://github.com/luzhenhua1/YesPlayMusic"
         >
           <img
             height="36"
