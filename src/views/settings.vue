@@ -728,11 +728,20 @@
 
       <div class="footer">
         <p class="author"
-          >Retrofit with By
+          >Retrofit BY
           <a href="https://www.luzhenhua.com" target="_blank">Zhenhua Lu</a></p
         >
         <p class="version">v{{ version }}</p>
 
+        <a
+          v-if="!isElectron"
+          href="https://github.com/luzhenhua1/YesPlayMusic"
+        >
+          <img
+            height="36"
+            src="https://do.ohtoai.com/view.php/5cff78e44ca42e5026f832f7b41fb018.svg"
+          />
+        </a>
       </div>
     </div>
   </div>
